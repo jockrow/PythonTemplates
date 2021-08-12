@@ -1,0 +1,3 @@
+Hola {{ data.girl }} soy {{ data.me }}
+{% if cierto %}Usted tiene toda la boca llena de verdad{% else %}Es falso de toda falsedad{% endif %}
+Los colores de la bandera de Colombia son {% for color in bandera %}{{ color }}, {% endfor %}
